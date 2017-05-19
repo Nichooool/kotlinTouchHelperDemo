@@ -7,13 +7,34 @@
     android:layout_height="match_parent"
     tools:context="me.example.nieyh.kotlintouchhelperdemo.KotlinActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/activity_kotlin_drag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="网格数据拖拽重新排序"
+        android:textSize="16dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_kotlin_swipe"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.501"/>
+
+    <Button
+        android:id="@+id/activity_kotlin_swipe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="列表数据滑动可删除"
+        android:textSize="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_kotlin_drag"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginRight="8dp"/>
 </android.support.constraint.ConstraintLayout>
