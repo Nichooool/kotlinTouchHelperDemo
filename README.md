@@ -1,6 +1,8 @@
 # kotlinTouchHelperDemo
 ### kotlin + 列表拖拽重新排序、滑动进行删除
 
+<a href="http://www.jianshu.com/p/2e591df06d73">鼓励传送门</a>
+
 其实在一个月前就想写个kotlin的Demo，想在kotlin成为Android的主流开发语言之前学习学习它.
 但是中间一直没有时间，正好这几天Google I/O大会，Kotlin都上热搜了，我利用下班后的时间将写的kotlin例子来和大家分享下，让大家感受感受这门神奇的语言.
 
@@ -191,3 +193,9 @@
          }
      }
     ```
+
+> 效果图
+
+![拖拽重新排序.gif](ext/1.gif)
+
+![滑动删除.gif](ext/2.gif)
